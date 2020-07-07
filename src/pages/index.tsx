@@ -4,9 +4,9 @@ type Props = {
   title: string
 }
 
-const foo = 'bla';
+const foo = 'bla'
 
-export default function Home({ title }: Props) {
+export default function Home({ title = 'oi' }: Props) {
   return (
     <div className="container">
       <Head>
