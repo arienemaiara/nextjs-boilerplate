@@ -14,6 +14,7 @@ function App({ Component, pageProps }: AppProps) {
           href="favicon.ico"
           type="/img/icon-512.png"
         />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="A simple projeto starter to work with Typescript, React, NextJS and Styled Components"
